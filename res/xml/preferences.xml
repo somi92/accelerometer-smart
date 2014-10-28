@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <ListPreference
+        android:dependency="pref_sync"
+        android:key="pref_sampling_rate"
+        android:title="@string/pref_sampling_rate"
+        android:dialogTitle="@string/pref_sampling_rate"
+        android:entries="@array/sampling_array"
+        android:entryValues="@array/sampling_array"
+        android:defaultValue="@string/pref_sampling_rate" />
+
+</Preference>

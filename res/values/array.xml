@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sampling_array">
+        <item >Fastest rate</item>
+        <item >Game rate</item>
+        <item >UI rate</item>
+        <item >Normal rate</item>
+    </string-array>
+</resources>

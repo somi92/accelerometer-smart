@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Accelerometer</string>
+    <string name="btnStart_text">Start</string>
+    <string name="activity_title">Accelerometer</string>
+    <string name="btnStop_text">Stop</string>
+    <string name="alpha_hint">0.1</string>
+    <string name="high_pass">High-pass filter</string>
+	<string name="low_pass">Low-pass</string>
+	<string name="alpha_label">Alpha filter coeficient:</string>
+    <string name="pref_alpha">pref_alpha</string>
+	<string name="pref_highpass">pref_highpass</string>
+	<string name="pref_sampling_rate">Sensors sampling rate</string>
+    
+</resources>

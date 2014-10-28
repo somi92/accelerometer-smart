@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+     
+    <TextView
+        android:id="@+id/tvX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/tvY"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/tvZ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" >
+    
+	    <Button 
+	        android:id="@+id/btnStart"
+	        android:text="@string/btnStart_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <Button
+	        android:id="@+id/btnStop"
+	        android:text="@string/btnStop_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+		<CheckBox 
+	        android:id="@+id/high_pass"
+	        android:gravity="center"
+	        android:hint="@string/high_pass"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+
+	  </LinearLayout>
+	  
+	  <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent" android:layout_height="wrap_content" >
+	    
+	    <TextView 
+	        android:id="@+id/alpha_label"
+	        android:text="@string/alpha_label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <EditText 
+	        android:id="@+id/alpha_input"
+	        android:hint="@string/alpha_hint"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:inputType="numberDecimal" />
+	    	
+		    
+		  </LinearLayout>
+    
+    <LinearLayout
+       android:id="@+id/chart"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical" />
+
+</LinearLayout>
